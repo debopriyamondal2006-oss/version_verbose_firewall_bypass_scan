@@ -1,0 +1,18 @@
+# Nmap 7.95 scan initiated Mon Oct 20 07:20:37 2025 as: /usr/lib/nmap/nmap -sV -v -Pn -oN scan2.txt 192.168.147.159
+Nmap scan report for 192.168.147.159
+Host is up (0.00085s latency).
+Not shown: 992 filtered tcp ports (no-response)
+PORT     STATE  SERVICE         VERSION
+53/tcp   closed domain
+Microsoft IIS httpd 10.0
+135/tcp  open   msrpc           Microsoft Windows RPC
+139/tcp  open   netbios-ssn     Microsoft Windows netbios-ssn
+445/tcp  open   microsoft-ds?
+902/tcp  open   ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp  open   vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+5357/tcp open   http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Oct 20 07:20:59 2025 -- 1 IP address (1 host up) scanned in 21.65 seconds
